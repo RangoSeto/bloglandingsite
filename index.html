@@ -14,19 +14,22 @@
         <!-- Start Header Section -->
 
         <header>
-            <div class="container p-5 text-white">
+            <div class="container p-5 text-white fw-bold">
                 <!-- Start navbar section -->
                 <nav class="navbar navbar-expand-md">
                     
                     <a href="index.html" class="navbar-brand">
-                        <h1 class=" fw-bold text-white">Blogr</h1>
+                        <h1 class=" fw-bold text-white mx-3 me-5">Blogr</h1>
                     </a>
 
-                    <div>
+
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+
+                    <div id="nav" class="navbar-collapse collapse justify-content-between">
 
                         <ul class="navbar-nav fw-bold">
-                            <li class="nav-item"><a href="#" class="nav-link text-white">Product</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-white">Company</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">Product<span class="icon"></span></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white mx-3">Company</a></li>
                             <li class="dropdown nav-item"><a href="#" class="dropdown-toggle nav-link text-white" data-bs-toggle="dropdown">Connect</a>
 
                                 <ul class="dropdown-menu fw-bold">
@@ -37,18 +40,29 @@
                             </li>
                         </ul>
 
+                        <div>
+                            <a href="#" class="login me-3">Login</a>
+                            <button type="button" class="btn btn-col rounded-pill fw-bold px-4 py-2 me-3">Sign Up</button>
+                        </div>
+
                     </div>
                     
-                    <div class=" justify-content-end">
-                        <a href="#" class="login">Login</a>
-                        <button type="button" class="btn btn-col rounded-pill">Sign Up</button>
-                    </div>
                     
                 </nav>
                 <!-- End navbar section -->
 
                 <!-- Start banner -->
+                <div class="container banners">
+                    <h1 class="display">
+                        A modern publishing platform
+                    </h1>
+                    <p>Grow your audience and build your online brand</p>
 
+                    <div>
+                        <button type="button" class="btn btn-col rounded-pill px-3 py-2">Start for Free</button>
+                        <button type="button" class="btn btn-outline-light rounded-pill px-3 py-2 fw-bold btn-learn">Learn More</button>
+                    </div>
+                </div>
                 <!-- End banner -->
             </div>
 
